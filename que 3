@@ -1,0 +1,10 @@
+def is_same_string(input_string, check_string):
+    return input_string == check_string
+
+input_string = input("1,2,3,4,5: ")
+check_string = input("6,7,8,9,10: ")
+
+if is_same_string(input_string, check_string):
+    print("The strings are the same.")
+else:
+    print("The strings are different.")
